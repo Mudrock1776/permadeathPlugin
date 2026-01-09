@@ -1,0 +1,10 @@
+main: mudrock.permadeathPlugin
+name: permadeath
+version: 0.3.1
+commands:
+  sethome:
+    description: "Sets your home"
+  home:
+    description: "Teleports you to your home"
+  back:
+    description: "Returns you to the last place you used /home from"
