@@ -11,6 +11,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 import mudrock.commands.utilities.backCommand;
 import mudrock.commands.utilities.homeCommand;
 import mudrock.commands.utilities.sethomeCommand;
+import mudrock.commands.utilities.tpaCommand;
+import mudrock.commands.utilities.tpacceptCommand;
+import mudrock.commands.utilities.tpdenyCommand;
 import mudrock.listeners.DeathListener;
 import mudrock.listeners.deathcountStorage;
 
@@ -36,6 +39,9 @@ public class permadeathPlugin extends JavaPlugin {
         getCommand("sethome").setExecutor(new sethomeCommand(PLUGINID));
         getCommand("home").setExecutor(new homeCommand(PLUGINID));
         getCommand("back").setExecutor(new backCommand(PLUGINID));
+        getCommand("tpa").setExecutor(new tpaCommand(PLUGINID));
+        getCommand("tpaccept").setExecutor(new tpacceptCommand(PLUGINID));
+        getCommand("tpdeny").setExecutor(new tpdenyCommand(PLUGINID));
         getServer().getPluginManager().registerEvents(new DeathListener(PLUGINID), PLUGINID);
         getLogger().info("Permadeath enabled");
     }
