@@ -1,6 +1,6 @@
 main: mudrock.permadeathPlugin
 name: permadeath
-version: 0.3.1
+version: 0.4.2
 commands:
   sethome:
     description: "Sets your home"
@@ -8,3 +8,9 @@ commands:
     description: "Teleports you to your home"
   back:
     description: "Returns you to the last place you used /home from"
+  tpa:
+    description: "Send a request to teleport to someone"
+  tpaccept:
+    description: "Accept a teleportation request"
+  tpdeny:
+    description: "Deny a teleportation request"

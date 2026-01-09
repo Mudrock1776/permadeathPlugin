@@ -6,7 +6,7 @@
 
   <groupId>mudrock</groupId>
   <artifactId>permadeath</artifactId>
-  <version>0.3.7</version>
+  <version>0.4.2</version>
   <packaging>jar</packaging>
 
   <name>permadeath</name>
