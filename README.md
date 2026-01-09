@@ -6,9 +6,11 @@ The goal of this plugin is to provide a collective permadeath scenario
 - Java: >25.0.1
 - maven: >3.9.12
 
-###### Creating the Plugin ######
+##### Creating the Plugin #####
 To create the plugin run
-    mvn clean install
+```
+mvn clean install
+```
 the plugin will be in the target folder
 
 ###### Contributors #######
