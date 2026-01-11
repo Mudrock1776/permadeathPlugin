@@ -1,6 +1,6 @@
 main: mudrock.permadeathPlugin
 name: permadeath
-version: 0.4.2
+version: 0.4.3
 commands:
   sethome:
     description: "Sets your home"
