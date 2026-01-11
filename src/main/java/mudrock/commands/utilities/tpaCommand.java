@@ -29,6 +29,7 @@ public class tpaCommand implements CommandExecutor{
                 } else {
                     target.getPersistentDataContainer().set(new NamespacedKey(plugin, "tprequest"), PersistentDataType.STRING, player.getName());
                     target.sendMessage(ChatColor.WHITE+player.getName()+ChatColor.GOLD+" would like to teleport to you /tpaccept to accept, /tpdeny to deny");
+                    player.sendMessage(ChatColor.GREEN+"Requested a teleport to "+ChatColor.WHITE+target.getName());
                 }
             }
         }
